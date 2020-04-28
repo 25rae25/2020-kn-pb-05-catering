@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Noto Serif', serif; */
+
+body {height: 10000px;}
+
+/**************common***************/
+
+
+/************** header*************/
+.header {font-family: 'Noto Serif', serif; padding: 8px 16px; box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.4); position: fixed; width: 100%; background-color: #fff;
+	z-index: 99;} 
+.logo {float: left; font-size: 16px; font-weight: normal; padding: 8px 16px;}
+.logo:hover {background-color: #ccc; cursor: pointer;}
+.navi-wrap {float: right;}
+.navi {float: left; padding: 8px 16px;}
+.navi:hover {background-color: #ccc; cursor: pointer;}
+
+/************** main-wrap *************/
+.main-wrap { max-width: 1600px; margin: 0 auto; text-align: center;  position: relative;}
+.main-wrap > .title {font-size: 36px; color: #666; ;
+position: absolute; bottom: 30px; left: 60px;}
+
+
+
+
+
+
+
+
+
+
+
+
+/************** about-wrap *************/
+
+
+/************** menu-wrap*************/
+
+
+/************** contact-wrap*************/
+
+
+/************** footer*************/
