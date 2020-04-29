@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Noto Serif', serif; */
+
+
+
+/**************common***************/
+.wrapper {width: 1100px; padding: 80px 16px; margin: auto;}
+.float-lt {width: 50%; float: left; padding-right: 16px;}
+.float-rt {width: 50%; float: right; padding-left: 16px;}
+.page-title {text-align: center; font-size: 36px; font-family: 'open sans',
+	sans-serif; letter-spacing: 5px; font-weight: normal; padding: 24px 0;}
+.page-slogan {text-align: center; font-size: 18px; font-family: 'open sans',
+	sans-serif; letter-spacing: 5px; font-weight: lighter; padding: 24px 0;}
+.op70 {opacity: 0.7;}
+
+/************** header*************/
+.header {font-family: 'Noto Serif', serif; padding: 8px 16px; box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.4); position: fixed; width: 100%; background-color: #fff;
+	z-index: 99;} 
+.logo {float: left; font-size: 16px; font-weight: normal; padding: 8px 16px;}
+.logo:hover {background-color: #ccc; cursor: pointer;}
+.navi-wrap {float: right;}
+.navi {float: left; padding: 8px 16px;}
+.navi:hover {background-color: #ccc; cursor: pointer;}
+
+/************** main-wrap *************/
+.main-wrap { max-width: 1600px; margin: 0 auto; text-align: center;  position: relative;}
+.main-wrap > .title {font-size: 36px; color: #666; ;
+position: absolute; bottom: 30px; left: 60px;}
+
+
+
+/************** about-wrap *************/
+.about-wrap {border-bottom: 1px solid #ccc;}
+	.page-cont {line-height: 150%; font-family: 'Noto Serif', serif;}
+	.page-cont.cont1{margin-bottom: 24px;}
+	.page-cont.cont2{color: #999;}
+		
+/************** menu-wrap*************/
+.menu-wrap {border-bottom: 1px solid #ccc;}
+.menu-list {margin-bottom: 30px;}
+.menu-title {padding: 20px 0; letter-spacing: 5px; font-size: 18px; font-family: 'open sans',sans-serif;}
+.menu-desc {font-family: 'Noto Serif', serif; color: #999;
+font-size: 14px;}
+.menus {width: 50%; float: left;}
+
+/************** contact-wrap*************/
+.contact-wrap .page-title {text-align: left; font-size: 18px; }
+.contact-wrap p {padding: 16px 0; line-height: 150%; font-size: 14px;font-family: 'Noto Serif', serif;} 
+.contact-wrap .adress {color: #7cb6bd; font-size: 18px;}
+.contact-form input, .contact-form button {font-family: 'Noto Serif', serif;}
+.contact-form input {padding: 16px; width: 100%; border: none; border-bottom: 1px solid #ccc;}
+.form-list {padding: 12px 0;}
+.contact-form .bt-send {padding: 12px 16px; background-color: #eee; border: none;}
+.contact-form .bt-send:hover{background-color: #ccc;}
+
+/************** footer*************/
+.footer	{background-color: #eee; padding: 60px 0; text-align: center; font-size: 14px; 
+	font-family: 'Noto Serif', serif;}
+.footer a {color: #000;}
+.footer a:hover {color: #14db67;}
