@@ -5,7 +5,7 @@
 
 
 /**************common***************/
-.wrapper {max-width: 1100px; padding: 80px 16px; margin: auto;}
+.wrapper {width: 1100px; padding: 80px 16px; margin: auto;}
 .float-lt {width: 50%; float: left; padding-right: 16px;}
 .float-rt {width: 50%; float: right; padding-left: 16px;}
 .page-title {text-align: center; font-size: 36px; font-family: 'open sans',
@@ -59,43 +59,3 @@ font-size: 14px;}
 	font-family: 'Noto Serif', serif;}
 .footer a {color: #000;}
 .footer a:hover {color: #14db67;}
-
-@media screen and (max-width: 767px) {
-	.navi-wrap {display: none;}
-	.main-wrap > .title {font-size: 5vw; bottom: 4vw; left: 7vw;}
-	.photos.float-rt {width: 100%;  padding-left: 0;}
-	.menus.float-lt {width: 100%;}
-	.abouts .cont2 {display: none;}
-}
-
-@media screen and (max-width: 575px) {
- .photos.float-lt {display: none;}
- .abouts.float-rt {width: 100%; padding-left: 0;}
- .abouts .cont2 {display: block;}
-}
-
-
-/****************** 내가한거 *****************/
-/* @media screen and (max-width: 991px) {
-	
-}
-
-@media screen and (max-width: 767px) {
-	.logo {display: block;}
-	.navi-wrap {display: none;}
-	.main-wrap {width: 100%;}
-	.about-wrap >.photos{display: none;}
-	.abouts {padding: auto;}
-	.abouts {width: 100%; margin: auto;}
-	.page-cont  {line-height: 27px;}
-	.page-cont2  {line-height: 27px;}
-	.menu-list {margin-right: 20px;}
-	.menu-wrap >.photos {width: 500px;}
-	.contact-wrap >.page-title {font-size: 30px;}
-
-}
-
-@media screen and (max-width: 551px) {
-
-
-} */
