@@ -15,9 +15,9 @@
 .op70 {opacity: 0.7;}
 
 /************** header*************/
-.header {font-family: 'Noto Serif', serif; padding: 8px 16px; box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.4); position: fixed; width: 100%; background-color: #fff;
+.header {font-family: 'Noto Serif', serif; padding: 8px 16px; box-shadow: 0 2px 10px  rgba(0, 0, 0, 0.4); position: fixed; width:100%; background-color: #fff;
 	z-index: 99;} 
-.logo {float: left; font-size: 16px; font-weight: normal; padding: 8px 16px;}
+/* .logo {float: left; font-size: 16px; font-weight: normal; padding: 8px 16px;} */
 .logo:hover {background-color: #ccc; cursor: pointer;}
 .navi-wrap {float: right;}
 .navi {float: left; padding: 8px 16px;}
